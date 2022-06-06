@@ -1,0 +1,85 @@
+* { /* o * serve para inserir um css para todos os elementos do site, usei isso para tirar a margin e o padding do html todo para tirar a borda branca, caso queira ver a diferença, comente a linha 1 a 4 e olhe na borda do site */
+  margin: 0;
+  padding: 0;
+}
+
+body, ul, li, h1 {
+  margin:0 alto;
+  padding: 0px;
+  list-style: none;
+  font-size: 1,2rem;
+  font-family: cursive;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img { /* css para a imagem da logo */
+  margin-right: 0 alto; /* propriedade para adicionar uma margin na direita do elemento */
+}
+
+.a {
+  text-decoration: none;
+}
+.header {
+  background: #b8e2f5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; /* coloquei essa propriedade para alinhar verticalmente os elementoheader: ;eader */
+  padding: 20px;
+}
+.menu {
+  display: flex;/*permite que um conteudo fique ao lado do outro*/
+}
+.menu li {
+  margin-left: 10px;/*gera uma margin*/
+}
+.menu li a {
+  display:block;
+  padding: 10px;
+  text-decoration: none; /* essa propriedade serve para tirar o sublinhado da tag <a> */
+  text-transform: uppercase; /* essa propriedade serve para transformar todas as letras em maiscula */
+  color: #000; /* troquei a cor do link pra ficar parecido com a do logo */
+}
+.texpossi {
+  width: 100%;;
+  margin: 0auto;
+  position: relative;
+}
+.texpossi img {
+  width: 100%;
+  height:550px;
+  margin:0 alto;
+  
+}
+.topoesquerdo {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  text-align: center left;
+  padding:"10px";
+  font-family: cursive;
+}
+.parte2 img {
+  width:20% ;
+  margin: 0 alto;
+  position: center right;
+}
+ footer{
+  background: #b8e2f5;
+  display: flex;
+  flex-wrap: wraph;
+  justify-content: space-between;
+  padding: 20px;
+}
+footer rodape {
+   text-align: bottom-left;
+   display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+footer links ul{
+  display:flex;
+}
